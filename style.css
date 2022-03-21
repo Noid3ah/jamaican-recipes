@@ -67,13 +67,33 @@ p {
   /* font-family: "Poppins", sans-serif; */
 }
 
-.ingredients-items,
 .ingredients__items::marker {
   color: red;
   font-size: 1rem;
 }
-.ingredients-items,
+
 .ingredients__items {
   font-size: 1.1rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.36rem;
+}
+
+.steps {
+  margin-bottom: 5em;
+}
+.button-block {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.btn {
+  margin: 0 auto;
+  border: none;
+  outline: none;
+}
+
+.btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
 }
